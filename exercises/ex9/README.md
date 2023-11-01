@@ -252,9 +252,9 @@ To show some historical data you can use the `temperatureLog` of the sensor data
 
 ## Summary
 
-Congratulations! You've successfully enriched your sensor status page with a detailed card showing sensor information. This card, created using `sap.f.Card` and `sap.f.cards.NumericHeader`, displays valuable sensor data such as temperature, customer details, and a history chart of temperature data. You've also learned how to use microcharts with additional features like emphasized points, threshold lines and semantic coloring for better data visualization. These enhancements bring you one step closer to mastering UI5 applications.
+Congratulations! You've successfully enriched your sensor status page with a detailed card showing sensor information. This card, created using `sap.f.Card` and `sap.f.cards.NumericHeader`, displays valuable sensor data such as temperature, customer details, and a history chart of temperature data. You've also learned how to use microcharts with additional features like emphasized points, threshold lines and semantic coloring for better data visualization.
 
-Keep going as there is only one step left to make your application available to the users with [Exercise 10 - Deployment to SAP BTP - Cloud Foundry runtime](../ex10/README.md).
+You have done it all, this was the last step of the tutorial. Keep up the good work and stay curious about SAPUI5 as there is still a lot to learn! Find more information and tutorials about SAPUI5 below.
 
 ## Further Information
 * Cards: https://ui5.sap.com/#/topic/5b46b03f024542ba802d99d67bc1a3f4
@@ -264,3 +264,5 @@ Keep going as there is only one step left to make your application available to 
 : https://ui5.sap.com/#/topic/516e477e7e0b4e188b19a406e7528c1e
 * UI5 Microcharts: https://ui5.sap.com/#/topic/9cbe3f06465e47b8a136956034a718ed
 * Formatting, Parsing, and Validating Data: https://ui5.sap.com/#/topic/07e4b920f5734fd78fdaa236f26236d8
+* UI5 Tutorials: https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
+* SAP Tutorials: https://developers.sap.com/tutorial-navigator.html

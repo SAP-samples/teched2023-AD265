@@ -31,7 +31,7 @@ Completing the following exercises will guide you through developing web applica
 [Exercise 7 - Fragment Containing a Dialog](exercises/ex7/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex7)*)<br>
 [Exercise 8 - Second View with Navigation](exercises/ex8/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex8)*)<br>
 [Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex9)*)<br>
-[Exercise 10  - Deployment to SAP BTP - Cloud Foundry runtime](exercises/ex10/)
+<!-- [Exercise 10  - Deployment to SAP BTP - Cloud Foundry runtime](exercises/ex10/) -->
 
 Start with exercise 0 [here](exercises/ex0/).
 
