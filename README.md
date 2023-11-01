@@ -33,6 +33,8 @@ Completing the following exercises will guide you through developing web applica
 [Exercise 9 - Card with Sensor Details](exercises/ex9/) (*[browse sources](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex9)*)<br>
 <!-- [Exercise 10  - Deployment to SAP BTP - Cloud Foundry runtime](exercises/ex10/) -->
 
+You can not only access the resulting code after each exercise by following the links above, but also import it to SAP Business Application Studio. Instructions how to do this can be [found here](https://github.com/SAP-samples/teched2023-AD285/tree/code).
+
 Start with exercise 0 [here](exercises/ex0/).
 
 ## Contributing
