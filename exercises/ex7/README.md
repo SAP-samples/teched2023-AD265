@@ -1,5 +1,5 @@
-[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex7)
-[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://pages.github.com/SAP-Samples/teched2023-AD283v/ex7/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
+[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex7)
+[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://sap-samples.github.io/teched2023-AD283v/ex7/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
 # Exercise 7 - Utilizing Fragments and Dialogs
 
 For a quick overview of all current customers, let's offer a dialog. To maintain separation of concerns, let's encapsulate this dialog's content within a Fragment. This enables potential reuse elsewhere.
@@ -65,7 +65,7 @@ After defining the dialog, you need to implement the code that will trigger its 
         this.dialog ??= this.loadFragment({
             name: "keepcool.sensormanager.view.CustomerDialog"
         }) as Promise<Dialog>;
-    
+
         this.dialog.then((dialog) => dialog.open())
             .catch((err: Error) => MessageToast.show(err.message));
     }
@@ -125,7 +125,7 @@ After implementing the dialog opening logic, you need to link this logic to a co
 ![](images/07_04_0010.png)
 
 ## Summary
-You've done a fantastic job! In this exercise, you've successfully created a reusable fragment that encapsulates a dialog for displaying customer information in your application. You've also implemented the logic to open and close the dialog, and connected it to a button on the user interface. You're making great strides in modularizing your code and enhancing the user experience. 
+You've done a fantastic job! In this exercise, you've successfully created a reusable fragment that encapsulates a dialog for displaying customer information in your application. You've also implemented the logic to open and close the dialog, and connected it to a button on the user interface. You're making great strides in modularizing your code and enhancing the user experience.
 
 Keep up the good work in [Exercise 8 - Second View with Navigation](../ex8/README.md)!
 

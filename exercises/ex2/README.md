@@ -1,5 +1,5 @@
-[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex2)
-[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://pages.github.com/SAP-Samples/teched2023-AD283v/ex2/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
+[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex2)
+[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://sap-samples.github.io/teched2023-AD283v/ex2/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
 
 # Exercise 2 - Add First Content
 
@@ -73,7 +73,7 @@ Now let's finally add some content!
 ## Exercise 2.3 - Add Dependencies
 
 In addition to the main UI5 library `sap.m`, you will use other control libraries like `sap.ui.layout` in your application. The central point for configuring your UI5 application is the `manifest.json` file, which is located at `sensormanager/webapp/manifest.json`.
- 
+
 1. You can either locate this file in the File Explorer on the left-hand side or directly access `manifest.json` using the link in the *Application Info* page. If you have closed the *Application Info* page again or not opened it in the previous exercise, you can open it by using the command `Fiori: Open Application Info` from command palette (`CTRL + Shift + P` on Windows/Linux, `Cmd + Shift + P` on Mac).
 
 ![](images/02_02_0030.png)

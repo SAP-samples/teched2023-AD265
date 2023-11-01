@@ -1,5 +1,5 @@
-[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex6)
-[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://pages.github.com/SAP-Samples/teched2023-AD283v/ex6/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
+[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex6)
+[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://sap-samples.github.io/teched2023-AD283v/ex6/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
 
 # Exercise 6 - Filtering With the IconTabBar
 
@@ -73,10 +73,10 @@ In the previous section you've added all necessary UI controls. Next, you'll imp
 >When triggering the Quick Fix on other missing modules and selecting "Add all missing imports", then one of them will be added. In any case, make sure the `sap/ui/model/Filter` module is imported, as this application is not using an OData model.
 
 > #### 💡 Hint
-> Try typing the last line of this code block manually: `listBinding.filter(this.statusFilters);` 
+> Try typing the last line of this code block manually: `listBinding.filter(this.statusFilters);`
 >
 > Doing so, another advantage of TypeScript can be seen here, as there is type-ahead available, not only for variable names like `listBinding`, but also for available methods on the given variable type:
-> 
+>
 ![](images/06_02_0010.png)
 >
 > There is also direct access to the documentation while you are typing, e.g. for the method parameters:

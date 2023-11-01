@@ -1,5 +1,5 @@
-[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD283v/tree/code/exercises/ex4)
-[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://pages.github.com/SAP-Samples/teched2023-AD283v/ex4/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
+[![solution](https://flat.badgen.net/badge/solution/available/green?icon=github)](https://github.com/SAP-samples/teched2023-AD265/tree/code/exercises/ex4)
+[![demo](https://flat.badgen.net/badge/demo/deployed/blue?icon=github)](https://sap-samples.github.io/teched2023-AD283v/ex4/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display)
 
 # Exercise 4 - Introduce Localization (i18n)
 
@@ -130,7 +130,7 @@ Usually, only the `i18n.properties` file is maintained by developers. The langua
 ![](images/04_01_0010.png)
 
 4. UI5 supports the `sap-ui-language=...` URL parameter to simulate another browser language. The preview URL may already have other URL parameters plus a URL hash and look like this:
-`...cloud.sap/test/flpSandbox.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display`. It is important to insert the new URL parameter for the language at the correct position and separate it from other URL parameters with an ampersand character (`&`). The easiest way may be to add it right behind the question mark, which separates the address from the parameters:
+`...cloud.sap/test/flpSandbox-cdn.html?sap-ui-xx-viewCache=false#keepcoolsensormanager-display`. It is important to insert the new URL parameter for the language at the correct position and separate it from other URL parameters with an ampersand character (`&`). The easiest way may be to add it right behind the question mark, which separates the address from the parameters:
 `...cloud.sap/test/flpSandbox.html?sap-ui-language=hi&sap-ui-xx-viewCache=false#keepcoolsensormanager-display`. Then Press `Enter`. UI5 should now start in Hindi regardless of the language you have configured as your browser language.
 
 > If the URL just ends with `....cloud.sap/index.html`, without URL parameters, then you can simply append `?sap-ui-language=hi` to switch to Hindi.
